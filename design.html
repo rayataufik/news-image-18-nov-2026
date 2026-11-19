@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Day, in Order — Wednesday 18 November 2026</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1024px; height: 1024px; font-family: Arial, Helvetica, sans-serif; background: #FAFAF7; color: #1C1C1C; overflow: hidden; }
+.page { width: 1024px; height: 1024px; }
+
+/* Masthead */
+header { height: 148px; background: #1F1F1F; color: #fff; padding: 16px 28px 14px; }
+.mast-top { display: flex; justify-content: space-between; align-items: baseline; }
+.mast-name { font-size: 34px; font-weight: 900; letter-spacing: 3px; }
+.mast-count { font-size: 14px; font-weight: 700; color: #F4793B; letter-spacing: 2px; }
+.mast-date { font-size: 54px; font-weight: 900; color: #F4793B; letter-spacing: 1px; line-height: 1.05; margin-top: 2px; }
+.mast-sub { font-size: 14px; color: #CFCFCF; margin-top: 4px; }
+
+/* Day axis */
+.axis { height: 52px; padding: 10px 28px 0; }
+.axis-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #2F5D3A; margin-bottom: 5px; }
+.axis-track { position: relative; height: 14px; }
+.axis-line { position: absolute; left: 0; right: 0; top: 6px; height: 2px; background: #C9C4B8; }
+.tick { position: absolute; top: 0; font-size: 10px; font-weight: 700; color: #6B6B6B; transform: translateX(-50%); }
+.tick::before { content: ""; display: block; width: 2px; height: 7px; background: #6B6B6B; margin: 0 auto 1px; }
+.mark { position: absolute; top: 1px; width: 12px; height: 12px; border-radius: 50%; background: #D9481C; border: 2px solid #FAFAF7; transform: translateX(-50%); }
+.mark-lbl { position: absolute; top: 15px; font-size: 9px; font-weight: 700; color: #D9481C; transform: translateX(-50%); white-space: nowrap; }
+
+/* Timeline body */
+main { height: 636px; display: flex; gap: 26px; padding: 6px 28px 0; }
+.col { flex: 1; }
+.col-head { font-size: 15px; font-weight: 900; letter-spacing: 1px; color: #2F5D3A; border-bottom: 3px solid #2F5D3A; padding-bottom: 5px; margin-bottom: 2px; }
+.entry { position: relative; display: flex; gap: 10px; padding: 8px 0 8px 18px; border-left: 3px solid #E8622A; min-height: 100px; }
+.entry::before { content: ""; position: absolute; left: -8px; top: 12px; width: 11px; height: 11px; border-radius: 50%; background: #E8622A; border: 2px solid #FAFAF7; }
+.entry svg { flex: 0 0 42px; width: 42px; height: 42px; margin-top: 2px; }
+.entry-text { flex: 1; }
+.time { font-size: 11px; font-weight: 900; letter-spacing: 1.5px; color: #D9481C; }
+.entry h2 { font-size: 16px; font-weight: 900; line-height: 1.15; margin: 2px 0 3px; }
+.entry p { font-size: 12px; line-height: 1.32; color: #333; }
+
+/* Also band */
+.also { height: 64px; margin: 0 28px; padding: 8px 0 0; border-top: 2px solid #1F1F1F; }
+.also-label { font-size: 12px; font-weight: 900; letter-spacing: 1.5px; color: #D9481C; }
+.also p { font-size: 11.5px; line-height: 1.35; color: #333; margin-top: 2px; }
+
+/* Numbers strip */
+.numbers { height: 68px; background: #2F5D3A; color: #fff; display: flex; align-items: center; padding: 0 28px; margin-top: 6px; }
+.stat { flex: 1; text-align: center; }
+.stat + .stat { border-left: 1px solid rgba(255,255,255,0.35); }
+.stat b { display: block; font-size: 22px; font-weight: 900; line-height: 1.1; }
+.stat span { font-size: 10px; line-height: 1.2; color: #D9E8DC; }
+
+/* Footer */
+footer { height: 56px; padding: 10px 28px 0; text-align: center; }
+footer p { font-size: 11.5px; line-height: 1.4; color: #555; }
+footer .src { font-weight: 700; color: #1C1C1C; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <div class="mast-top">
+    <div class="mast-name">THE DAY, IN ORDER</div>
+    <div class="mast-count">12 STORIES &middot; 1 WEDNESDAY</div>
+  </div>
+  <div class="mast-date">WEDNESDAY 18 NOVEMBER 2026</div>
+  <div class="mast-sub">From before dawn to late evening &mdash; the news of 18 November 2026, in the order it happened.</div>
+</header>
+
+<div class="axis">
+  <div class="axis-label">THE DAY&rsquo;S CLOCK &mdash; ALL TIMES UTC, UNLESS MARKED</div>
+  <div class="axis-track">
+    <div class="axis-line"></div>
+    <div class="tick" style="left:0%">00</div>
+    <div class="tick" style="left:25%">06</div>
+    <div class="tick" style="left:50%">12</div>
+    <div class="tick" style="left:75%">18</div>
+    <div class="tick" style="left:100%">24</div>
+    <div class="mark" style="left:42.8%"></div>
+    <div class="mark-lbl" style="left:42.8%; transform: translateX(-105%);">VOYAGER 05:16 ET</div>
+    <div class="mark" style="left:45.8%"></div>
+    <div class="mark-lbl" style="left:45.8%; transform: translateX(5%);">GTA VI 11:00</div>
+  </div>
+</div>
+
+<main>
+  <div class="col">
+    <div class="col-head">MORNING &mdash; 00:00 TO 12:00 UTC</div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#1F1F1F"/><path d="M6 34 Q14 20 24 18 Q34 16 42 8" stroke="#F4793B" stroke-width="2.5" fill="none"/><path d="M6 40 Q16 28 26 26" stroke="#F5C518" stroke-width="2" fill="none"/><circle cx="42" cy="8" r="3" fill="#F4793B"/><circle cx="24" cy="18" r="2" fill="#F5C518"/><path d="M8 44 h32" stroke="#2F5D3A" stroke-width="3"/></svg>
+      <div class="entry-text">
+        <div class="time">BEFORE DAWN</div>
+        <h2>Iran strikes Kuwait and Bahrain</h2>
+        <p>Drones and missiles hit Ali Al Salem air base and Bahrain after US jets struck a Guards site on Qeshm Island. Bahrain intercepted several before dawn.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#DCE9F2"/><path d="M4 18 h16 M28 18 h16" stroke="#1F1F1F" stroke-width="3"/><path d="M4 18 Q24 6 44 18" stroke="#1F1F1F" stroke-width="3" fill="none"/><path d="M20 18 l4 8 -8 2 z" fill="#D9481C"/><path d="M0 34 q6 -4 12 0 t12 0 t12 0 t12 0" stroke="#2F5D3A" stroke-width="2.5" fill="none"/><path d="M0 41 q6 -4 12 0 t12 0 t12 0 t12 0" stroke="#2F5D3A" stroke-width="2.5" fill="none"/></svg>
+      <div class="entry-text">
+        <div class="time">MORNING</div>
+        <h2>Kerch Bridge collapse confirmed</h2>
+        <p>Reuters-verified video shows the 227 m road arch crumbled into the strait after Ukrainian strikes on 16&ndash;17 Nov. Road out; rail partly resumed; 2 killed.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#1F1F1F"/><circle cx="8" cy="8" r="1.2" fill="#fff"/><circle cx="20" cy="5" r="1" fill="#fff"/><circle cx="38" cy="12" r="1.2" fill="#fff"/><circle cx="44" cy="30" r="1" fill="#fff"/><circle cx="6" cy="26" r="1" fill="#fff"/><path d="M14 34 Q24 26 34 18" stroke="#F4793B" stroke-width="1.5" stroke-dasharray="3 3" fill="none"/><path d="M32 14 l6 -4 -1 6 z" fill="#F5C518"/><rect x="30" y="14" width="7" height="5" fill="#CFCFCF"/></svg>
+      <div class="entry-text">
+        <div class="time">05:16 ET</div>
+        <h2>Voyager 1 crosses one light-day</h2>
+        <p>About 16 billion miles from Earth &mdash; no human-made object has ever been so far. NASA&rsquo;s probe passed the mark on Wednesday.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#1F1F1F"/><circle cx="24" cy="20" r="13" fill="#F5C518"/><path d="M24 10 v5 M24 25 v3 M14 20 h4 M30 20 h4" stroke="#1F1F1F" stroke-width="2"/><path d="M4 40 h8 l3 -8 h6 l3 8 h6 l3 -8 h6 l3 8 h2" stroke="#F4793B" stroke-width="2.5" fill="none"/><path d="M4 44 h40" stroke="#2F5D3A" stroke-width="2"/></svg>
+      <div class="entry-text">
+        <div class="time">11:00 UTC</div>
+        <h2>GTA VI goes live in New Zealand</h2>
+        <p>Rolling midnight unlock began in NZ; Australia, Japan and Europe follow, the US at midnight ET. PS5 and Xbox only, no PC. Pre-orders past $1.5B.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#DCE9F2"/><rect x="10" y="16" width="28" height="22" fill="#2F5D3A"/><rect x="18" y="10" width="12" height="7" fill="#1F1F1F"/><path d="M14 4 l2 5 5 1 -4 4 1 5 -4 -3 -4 3 1 -5 -4 -4 5 -1 z" fill="#F5C518"/><rect x="21" y="24" width="6" height="8" fill="#fff"/></svg>
+      <div class="entry-text">
+        <div class="time">MORNING</div>
+        <h2>Peltola wins Alaska; Senate 56&ndash;44</h2>
+        <p>Democrat Mary Peltola beat Republican Dan Sullivan &mdash; the party&rsquo;s ninth flip, its largest Senate majority since 2009.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#F6E8E4"/><circle cx="24" cy="24" r="11" fill="#D9481C"/><g stroke="#D9481C" stroke-width="2.5"><path d="M24 8 v5 M24 35 v5 M8 24 h5 M35 24 h5 M13 13 l3.5 3.5 M31.5 31.5 L35 35 M35 13 l-3.5 3.5 M16.5 31.5 L13 35"/></g><circle cx="24" cy="24" r="4" fill="#7A1F0E"/></svg>
+      <div class="entry-text">
+        <div class="time">MORNING</div>
+        <h2>Ebola passes 11,000 cases</h2>
+        <p>DR Congo&rsquo;s outbreak more than doubled in three months: 67 health zones, 8 provinces, the second-largest on record. Nearly 3 in 4 infected children under 5 die.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="col-head">AFTERNOON &amp; EVENING &mdash; 12:00 TO 24:00 UTC</div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#DCE9F2"/><path d="M24 6 L40 12 v12 c0 10 -7 16 -16 18 C15 40 8 34 8 24 V12 z" fill="#2F5D3A"/><path d="M24 12 L34 16 v8 c0 7 -4.5 11 -10 12.5 C18.5 35 14 31 14 24 v-8 z" fill="#fff"/><circle cx="20" cy="21" r="2.5" fill="#D9481C"/><circle cx="28" cy="25" r="2.5" fill="#D9481C"/><circle cx="24" cy="29" r="2" fill="#D9481C"/></svg>
+      <div class="entry-text">
+        <div class="time">MIDDAY</div>
+        <h2>US loses measles-free status</h2>
+        <p>PAHO: the US lost elimination status held since 2000 &mdash; 5,412 cases in 2026, most since 1991, across 45 states, 10 deaths.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#F6E8E4"/><path d="M12 6 v36 M36 6 v36" stroke="#1F1F1F" stroke-width="2.5"/><path d="M12 6 h14 l-3 6 3 6 H12 z" fill="#D9481C"/><path d="M36 6 h-14 l3 6 -3 6 h14 z" fill="#2F5D3A"/><path d="M6 42 h36" stroke="#1F1F1F" stroke-width="3"/><circle cx="19" cy="9" r="1.2" fill="#F5C518"/><circle cx="29" cy="9" r="1.2" fill="#fff"/></svg>
+      <div class="entry-text">
+        <div class="time">MIDDAY</div>
+        <h2>Xi meets Putin in Shenzhen</h2>
+        <p>As APEC opens, Xi denounced protectionism and Putin criticised Western sanctions, ahead of Thursday&rsquo;s trilateral with Trump. Trump met Marcos in Manila.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#1F1F1F"/><circle cx="24" cy="24" r="13" fill="none" stroke="#F4793B" stroke-width="2.5"/><circle cx="24" cy="11" r="3" fill="#F5C518"/><circle cx="35" cy="30" r="3" fill="#F5C518"/><circle cx="13" cy="30" r="3" fill="#F5C518"/><path d="M24 14 L33 28 M24 14 L15 28 M16 31 h16" stroke="#F5C518" stroke-width="1.5"/><text x="24" y="28" font-size="11" font-weight="900" fill="#fff" text-anchor="middle">6</text></svg>
+      <div class="entry-text">
+        <div class="time">AFTERNOON</div>
+        <h2>OpenAI ships GPT-6.2 Astra and Sol</h2>
+        <p>Astra, the flagship for professional work, and Sol, the everyday model, reach ChatGPT Work, Codex and the API. Astra $8/$40, Sol $2/$10 per million tokens.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#DCE9F2"/><rect x="12" y="12" width="24" height="24" fill="#1F1F1F"/><rect x="19" y="19" width="10" height="10" fill="#76B900"/><g stroke="#1F1F1F" stroke-width="2"><path d="M16 12 V7 M24 12 V7 M32 12 V7 M16 41 V36 M24 41 V36 M32 41 V36 M12 16 H7 M12 24 H7 M12 32 H7 M41 16 H36 M41 24 H36 M41 32 H36"/></g><path d="M8 42 L40 10" stroke="#D9481C" stroke-width="3"/></svg>
+      <div class="entry-text">
+        <div class="time">EVENING</div>
+        <h2>Nvidia board says no to Huang&rsquo;s return</h2>
+        <p>Chair Harvey Jones: the board &ldquo;unanimously accepted&rdquo; Huang&rsquo;s resignation and &ldquo;does not intend to reinstate&rdquo; him. Interim CEO Colette Kress; record $115.8B quarter.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#F6E8E4"/><rect x="10" y="8" width="28" height="32" fill="#fff" stroke="#1F1F1F" stroke-width="2"/><path d="M15 15 h18 M15 20 h18 M15 25 h12" stroke="#1F1F1F" stroke-width="2"/><path d="M16 33 l4 4 7 -8" stroke="#2F5D3A" stroke-width="2.5" fill="none"/><path d="M33 31 l5 5 M38 31 l-5 5" stroke="#D9481C" stroke-width="2.5"/></svg>
+      <div class="entry-text">
+        <div class="time">EVENING</div>
+        <h2>Board of Peace faults Israel &amp; Hamas</h2>
+        <p>Trump&rsquo;s Board of Peace accused both sides of failing to meet commitments to end hostilities. WHO: 950,000 displaced Palestinians in flood-prone ground.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#DCE9F2"/><circle cx="24" cy="20" r="14" fill="#2F5D3A"/><path d="M10 20 a14 14 0 0 1 28 0" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M24 6 v28 M12 12 q12 8 24 0" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M6 38 q6 -5 12 0 t12 0 t12 0" stroke="#2F5D3A" stroke-width="2.5" fill="none"/><path d="M34 32 q6 -8 2 -14 q-8 2 -6 10 q2 4 4 4" fill="#76B900"/></svg>
+      <div class="entry-text">
+        <div class="time">THROUGH THE DAY</div>
+        <h2>COP31 enters its final days</h2>
+        <p>In Antalya, oceans reach the negotiating table and 23 countries back a wildfire-prevention plan &mdash; but the draft leaves big gaps on climate finance. Talks close Friday.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="also">
+  <div class="also-label">ALSO ON WEDNESDAY</div>
+  <p>Russia fired 141 drones overnight, 126 downed, 5 killed &middot; Russian jets violated Japanese airspace off Fukuoka &middot; Taiwan logged 10 PLA sorties, 11 ships &middot; Myanmar to review ASEAN ties &middot; US officer held in Russia-spy case &middot; AI found a critical Java flaw &middot; Carney meets Trump at APEC &middot; Microsoft launches in-house models &middot; Cognition launches Devin Bots</p>
+</div>
+
+<div class="numbers">
+  <div class="stat"><b>11,000+</b><span>Ebola cases in DR Congo</span></div>
+  <div class="stat"><b>5,412</b><span>US measles cases in 2026</span></div>
+  <div class="stat"><b>16 bn</b><span>miles to Voyager 1</span></div>
+  <div class="stat"><b>227 m</b><span>Kerch road arch lost</span></div>
+  <div class="stat"><b>141</b><span>Russian drones overnight</span></div>
+  <div class="stat"><b>56&ndash;44</b><span>Democrats take the Senate</span></div>
+  <div class="stat"><b>$115.8B</b><span>Nvidia&rsquo;s record quarter</span></div>
+</div>
+
+<footer>
+  <p>Every story here happened on, or was first reported on, Wednesday 18 November 2026. Contested claims are marked as claims.</p>
+  <p class="src">Reporting: Reuters, AP, AFP, BBC, Al Jazeera, WHO, UN, NASA. Drawings original.</p>
+</footer>
+
+</div>
+</body>
+</html>
